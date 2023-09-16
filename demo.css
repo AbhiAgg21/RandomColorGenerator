@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  transition: 3s;
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Girassol', cursive;
+
+
+}
+
+
+
+.container{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: crimson;
+    width: 30rem;
+    font-size: 30px;
+    /* height: X15rem; */
+    text-align: center;
+}
+.container h4{
+    color: white;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.container h1 span{
+    font-family: 'Edu SA Beginner', cursive;
+
+
+}
+
+button{
+    width: 450px;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 41px;
+}
+button:hover{
+    border: 2.3px solid black;
+    cursor: pointer;
+    background-color: rgb(238, 158, 174);
+}
